@@ -17,7 +17,7 @@ To write a Java program using a for loop to print the Fibonacci series starting 
 2. Import the necessary package java.util.
 3. Create a Scanner object to read the number of terms.
 4. Initialize two variables a = 0 and b = 1 to represent the first two Fibonacci numbers.
-5. If the input is 1, print â€œ0 1â€.
+5. If the input is 1, print 0.
 6. Otherwise, use a for loop to generate the Fibonacci series:
    - Print the current value of a.
    - Compute the next term as next = a + b.
