@@ -5,9 +5,9 @@ Description:
 Create abstract class GameScore with method finalScore().
 Subclasses:
 
-ArcadeGame: score = baseScore + (level Ã— 100)
+ArcadeGame: score = baseScore + (level A— 100)
 
-PuzzleGame: score = (attempts â‰¤ 3) ? 1000 - (attempts Ã— 100) : 500
+PuzzleGame: score = (attempts A% 3) ? 1000 - (attempts A— 100) : 500
 
 Input Format:
 
@@ -27,7 +27,7 @@ To write a Java program using an abstract class GameScore with subclasses Arcade
 1.	Create an abstract class GameScore with an abstract method finalScore().
 2.	Define subclass ArcadeGame where finalScore = baseScore + (level Ã— 100).
 3.	Define subclass PuzzleGame where
-4.	If attempts â‰¤ 3, score = 1000 - (attempts Ã— 100)
+4.	If attempts A % 3, score = 1000 - (attempts Ã— 100)
 5.	Else score = 500.
 6.	Take user input for game type and relevant values.
 7.	Display the final score based on game type.
