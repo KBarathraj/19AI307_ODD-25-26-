@@ -14,7 +14,7 @@ To Write a program to demonstrate chaining of streams (BufferedReader on top of 
 1.	Start the program.
 2.	Import the necessary package 'java.util'
 3.	Create a BufferedReader object chained with InputStreamReader to read input from the keyboard.
-4.	Read the userâ€™s name as a string using readLine().
+4.	Read the username as a string using readLine().
 5.	Read the age as a string, then convert it to an integer using Integer.parseInt().
 6.	Display the user details (name and age) on the screen.
 7.	Close the BufferedReader and handle any possible IOException.
